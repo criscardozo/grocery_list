@@ -1,0 +1,39 @@
+name: grocery_list
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.2.16
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  local_auth: ^2.1.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.11.0"
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+
+flutter_native_splash:
+  color: "#FFFFFF"
